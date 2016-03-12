@@ -8,10 +8,10 @@ sigma.conrad = conrad;
 if (HTMLElement === undefined)
   var HTMLElement = function() {};
 
-if (window === undefined)
-  var window = {
-    addEventListener: function() {}
-  };
+// if (window === undefined)
+//   var window = {
+//     addEventListener: function() {}
+//   };
 
 if (typeof exports !== 'undefined') {
   if (typeof module !== 'undefined' && module.exports)

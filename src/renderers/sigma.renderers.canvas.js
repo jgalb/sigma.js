@@ -24,8 +24,8 @@
     if (typeof options !== 'object')
       throw 'sigma.renderers.canvas: Wrong arguments.';
 
-    if (!(options.container instanceof HTMLElement))
-      throw 'Container not found.';
+    // if (!(options.container instanceof HTMLElement))
+    //   throw 'Container not found.';
 
     var k,
         i,
